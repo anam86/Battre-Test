@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>INPUT DATA KE SPREAD SHEET</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /*  */
+    body {
+      background-color: #0c0a0a;
+    }
+
+    #form-container {
+      width: 300px;
+      margin: 0 auto;
+      background-color: #f1f1f7;
+      border: 2px solid #da0808;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    #form-container h4 {
+      text-align: center;
+      color: #1E90FF;
+    }
+
+    #form-container input[type="number"], #form-container input[type="text"] {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 5px;
+      border: none;
+      border-radius: 2px;
+    }
+
+    #form-container input[type="submit"] {
+      background-color: #1E90FF;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    #form-container input[type="submit"]:hover {
+      background-color: #004B8D;
+    }
+
+    #footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 14px;
+      color: #f7f1f1;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="form-container">
+    <h4>INPUT DATA TEST BATT (Titan Center)</h4>
+    <!-- akses link script app -->
+    <form
+      action="https://script.google.com/macros/s/AKfycbyL62sPX-gC3DHvJl4aHngrOrVcXE5foJitRS7kO5FtTqZf6uZn3UR9HKfTrrgJS8xxog/exec"
+      method="post">
+      <!-- end akses  -->
+
+      <label for="minutes">Minutes (m):</label>
+      <input type="number" id="minutes" name="minutes" required>
+      <label for="load">Load (%):</label>
+      <input type="number" id="load" name="load" required>
+      <label for="ampere">Ampere (I):</label>
+      <input type="number" id="ampere" name="ampere" required>
+      <label for="vdc">Volt DC (Vdc):</label>
+      <input type="number" id="vdc" name="vdc" required>
+      <label for="battery">Cap. Battery (%):</label>
+      <input type="number" id="battery" name="battery" required>
+      <label for="upssuhu">Temp Ups (c):</label>
+      <input type="number" id="upssuhu" name="upssuhu" required>
+      <label for="operator">Operator:</label>
+      <input type="text" id="operator" name="operator" required>
+      <input type="submit" value="Simpan Data">
+    </form>
+  </div>
+
+  <div id="footer">
+    Koreksi sebelum simpan, Jika ada kesalahan input lagi ya
+  </div>
+
+</body>
+
+</html>
