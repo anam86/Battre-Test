@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 
@@ -87,4 +88,95 @@
 
 </body>
 
+=======
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>INPUT DATA KE SPREAD SHEET</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /*  */
+    body {
+      background-color: #0cf5e9;
+    }
+
+    #form-container {
+      width: 300px;
+      margin: 0 auto;
+      background-color: #f1f1f7;
+      border: 2px solid #da0808;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    #form-container h4 {
+      text-align: center;
+      color: #1E90FF;
+    }
+
+    #form-container input[type="number"], #form-container input[type="text"] {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 5px;
+      border: none;
+      border-radius: 2px;
+    }
+
+    #form-container input[type="submit"] {
+      background-color: #1E90FF;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    #form-container input[type="submit"]:hover {
+      background-color: #004B8D;
+    }
+
+    #footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 14px;
+      color: #0a0a0a;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="form-container">
+    <h4>INPUT DATA TEST BATT (Grand Wisata)</h4>
+    <!-- akses link script app -->
+    <form
+      action="https://script.google.com/macros/s/AKfycbwHjN_ly_MZon_BgoT5sEES5Wub4tF2wa5sgImlCCRwVYMAkbo1OCYp0iZMI3USMwM-/exec"
+      method="post">
+      <!-- end akses  -->
+
+      <label for="minutes">Minutes (m):</label>
+      <input type="number" id="minutes" name="minutes" required>
+      <label for="volt1">V Batt 1 (V1):</label>
+      <input type="number" id="volt1" name="volt1" required>
+      <label for="volt2">V Batt 2 (V2):</label>
+      <input type="number" id="volt2" name="volt2" required>
+      <label for="ampereDc">I DC (Idc):</label>
+      <input type="number" id="ampereDc" name="ampereDc" required>
+      <label for="ampereCarg">I Discharger (Idc):</label>
+      <input type="number" id="ampereCarg" name="ampereCarg" required>
+      <label for="rectysuhu">Temp Recty (c):</label>
+      <input type="number" id="rectysuhu" name="rectysuhu" required>
+      <label for="operator">Operator:</label>
+      <input type="text" id="operator" name="operator" required>
+      <input type="submit" value="Simpan Data">
+    </form>
+  </div>
+
+  <div id="footer">
+    Koreksi sebelum simpan, Jika ada kesalahan input lagi ya
+  </div>
+
+</body>
+
+>>>>>>> 5bc6844e6e381c194d0b76d3df1b098d73f19292
 </html>
