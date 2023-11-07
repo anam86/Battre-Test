@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <meta charset="utf-8">
   <title>INPUT DATA KE SPREAD SHEET</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
@@ -53,7 +54,6 @@
     }
   </style>
 </head>
-
 <body>
   <div id="form-container">
     <h4>INPUT DATA TEST BATT (BIP)</h4>
@@ -68,7 +68,7 @@
       <label for="load">Load (%):</label>
       <input type="number" id="load" name="load" required onkeypress="return hanyaAngka(event)">
       <label for="ampere">Ampere (I):</label>
-      <input type="number" min="0,0" max="100,0" id="ampere" name="ampere" required onkeypress="return hanyaAngka(event)">
+      <input type="number" id="ampere" name="ampere" required onkeypress="return hanyaAngka(event)">
       <label for="vdc">Volt DC (Vdc):</label>
       <input type="number" id="vdc" name="vdc" required onkeypress="return hanyaAngka(event)">
       <label for="battery">Cap. Battery (%):</label>
