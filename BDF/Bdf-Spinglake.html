@@ -2,12 +2,12 @@
 <html>
 
 <head>
-  <title>FACILITY</title>
+  <title>INPUT DATA KE SPREAD SHEET</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     /*  */
     body {
-      background-color: #0cf5e9;
+      background-color: #0c0a0a;
     }
 
     #form-container {
@@ -19,13 +19,12 @@
       padding: 20px;
     }
 
-    #form-container h6 {
+    #form-container h5 {
       text-align: center;
       color: #1E90FF;
     }
 
-    #form-container input[type="number"],
-    #form-container input[type="text"] {
+    #form-container input[type="number"], #form-container input[type="text"] {
       width: 100%;
       padding: 5px;
       margin-bottom: 5px;
@@ -50,22 +49,21 @@
       text-align: center;
       margin-top: 30px;
       font-size: 14px;
-      color: #0a0a0a;
+      color: #f7f1f1;
     }
   </style>
 </head>
 
 <body>
   <div id="form-container">
-    <h6>INPUT DATA TEST BATT (Pulo Mas)</h6>
+    <h5>INPUT DATA TEST BATT (Springlake)</h5>
     <!-- akses link script app -->
     <form
-      action="https://script.google.com/macros/s/AKfycbxhr1-oQgQXh-0Fa1D7oMUU7YAEGECppyZp4YkcsOD-mQb3gcr_ZMpyAa2Ecy9TAY-W3Q/exec"
+      action="https://script.google.com/macros/s/AKfycbxQQD8eSVX2NYEsQnetdBNSntGwMXNGFpP54KIHylQaczyxBXn2qK7AwM0_h-VGxagf_g/exec"
       method="post">
       <!-- end akses  -->
 
       <label for="minutes">Minutes (m):</label>
-<<<<<<< HEAD
       <input type="text" id="minutes" name="minutes" required autocomplete="off" onkeypress="return hanyaAngka(event)">
       <label for="load">Load (%):</label>
       <input type="text" id="load" name="load" required autocomplete="off" onkeypress="return hanyaAngka(event)">
@@ -77,31 +75,16 @@
       <input type="text" id="battery" name="battery" required autocomplete="off" onkeypress="return hanyaAngka(event)">
       <label for="upssuhu">Temp Ups (c):</label>
       <input type="text" id="upssuhu" name="upssuhu" required autocomplete="off" onkeypress="return hanyaAngka(event)">
-=======
-      <input type="text" id="minutes" name="minutes" required>
-      <label for="load">Load (%):</label>
-      <input type="text" id="load" name="load" required>
-      <label for="ampere">Ampere (I):</label>
-      <input type="text" id="ampere" name="ampere" required>
-      <label for="vdc">Volt DC (Vdc):</label>
-      <input type="text" id="vdc" name="vdc" required>
-      <label for="battery">Cap. Battery (%):</label>
-      <input type="text" id="battery" name="battery" required>
-      <label for="upssuhu">Temp Ups (c):</label>
-      <input type="text" id="upssuhu" name="upssuhu" required>
->>>>>>> c31ec2247179e354699a7a517bf6e1bb4f2f3dc0
       <label for="operator">Operator:</label>
       <input type="text" id="operator" name="operator" autocomplete="off" required>
+      <label for="remarks">Remarks</label>
+      <input type="text" id="remarks" name="remarks" autocomplete="off" required>
       <input type="submit" value="Simpan Data">
     </form>
   </div>
 
   <div id="footer">
     Koreksi sebelum simpan, Jika ada kesalahan input lagi ya!
-<<<<<<< HEAD
-    <br>&copy;2024 Sy@m</br>
-=======
->>>>>>> c31ec2247179e354699a7a517bf6e1bb4f2f3dc0
   </div>
 
 </body>

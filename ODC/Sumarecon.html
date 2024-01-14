@@ -66,6 +66,7 @@
       <!-- end akses  -->
 
       <label for="minutes">Minutes (m):</label>
+<<<<<<< HEAD
       <input type="text" id="minutes" name="minutes" required autocomplete="off" onkeypress="return hanyaAngka(event)">
       <label for="load">Load (%):</label>
       <input type="text" id="load" name="load" required autocomplete="off" onkeypress="return hanyaAngka(event)">
@@ -77,6 +78,19 @@
       <input type="text" id="battery" name="battery" required autocomplete="off" onkeypress="return hanyaAngka(event)">
       <label for="upssuhu">Temp Ups (c):</label>
       <input type="text" id="upssuhu" name="upssuhu" required autocomplete="off" onkeypress="return hanyaAngka(event)">
+=======
+      <input type="text" id="minutes" name="minutes" required>
+      <label for="volt1">V Batt 1 (V1):</label>
+      <input type="text" id="volt1" name="volt1" required>
+      <label for="volt2">V Batt 2 (V2):</label>
+      <input type="text" id="volt2" name="volt2" required>
+      <label for="ampereDc">I DC (Idc):</label>
+      <input type="text" id="ampereDc" name="ampereDc" required>
+      <label for="ampereCarg">I Discharger (Idc):</label>
+      <input type="text" id="ampereCarg" name="ampereCarg" required>
+      <label for="rectysuhu">Temp Recty (c):</label>
+      <input type="text" id="rectysuhu" name="rectysuhu" required>
+>>>>>>> c31ec2247179e354699a7a517bf6e1bb4f2f3dc0
       <label for="operator">Operator:</label>
       <input type="text" id="operator" name="operator" autocomplete="off" required>
       <input type="submit" value="Simpan Data">
@@ -85,7 +99,10 @@
 
   <div id="footer">
     Koreksi sebelum simpan, Jika ada kesalahan input lagi ya!
+<<<<<<< HEAD
     <br>&copy;2024 Sy@m</br>
+=======
+>>>>>>> c31ec2247179e354699a7a517bf6e1bb4f2f3dc0
   </div>
 
 </body>
@@ -103,5 +120,77 @@
   }
 
 
+<<<<<<< HEAD
 </script>
 </html>
+=======
+    #form-container h4 {
+      text-align: center;
+      color: #1E90FF;
+    }
+
+    #form-container input[type="number"],
+    #form-container input[type="text"] {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 5px;
+      border: none;
+      border-radius: 2px;
+    }
+
+    #form-container input[type="submit"] {
+      background-color: #1E90FF;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    #form-container input[type="submit"]:hover {
+      background-color: #004B8D;
+    }
+
+    #footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 14px;
+      color: #0a0a0a;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="form-container">
+    <h4>INPUT DATA TEST BATT (Sumarecon)</h4>
+    <!-- akses link script app -->
+    <form
+      action="https://script.google.com/macros/s/AKfycbyqVTp3p4I8SY1SiFbJTziycXalPpfhFYyMfKDzOcft917OLrurgYkYEwz7XcQynE16qQ/exec"
+      method="post">
+      <!-- end akses  -->
+
+      <label for="minutes">Minutes (m):</label>
+      <input type="text" id="minutes" name="minutes" required>
+      <label for="volt1">V Batt 1 (V1):</label>
+      <input type="text" id="volt1" name="volt1" required>
+      <label for="volt2">V Batt 2 (V2):</label>
+      <input type="text" id="volt2" name="volt2" required>
+      <label for="ampereDc">I DC (Idc):</label>
+      <input type="text" id="ampereDc" name="ampereDc" required>
+      <label for="ampereCarg">I Discharger (Idc):</label>
+      <input type="text" id="ampereCarg" name="ampereCarg" required>
+      <label for="rectysuhu">Temp Recty (c):</label>
+      <input type="text" id="rectysuhu" name="rectysuhu" required>
+      <label for="operator">Operator:</label>
+      <input type="text" id="operator" name="operator" required>
+      <input type="submit" value="Simpan Data">
+    </form>
+  </div>
+
+  <div id="footer">
+    Koreksi sebelum simpan, Jika ada kesalahan input lagi ya!
+  </div>
+
+>>>>>>> c92d850319c1a4cf52890d2eb2d76b98039e78ad
+</body>
+>>>>>>> c31ec2247179e354699a7a517bf6e1bb4f2f3dc0
